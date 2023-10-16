@@ -1,19 +1,23 @@
 package juego;
 
 import java.util.Scanner;
-
+import javax.swing.*;
 public class main {
 
 	public static void main(String[] args) {
+		String nombre = JOptionPane.showInputDialog(null, "Dime tu nombre", "Datos Personales", JOptionPane.QUESTION_MESSAGE);
+		if(nombre!=null) {
+			JOptionPane.showMessageDialog(null, "Bienvenido " + nombre);
+		} else {
+			JOptionPane.showMessageDialog(null, "Bienvenido anonimus " + nombre);
+		}
 		Scanner sc = new Scanner(System.in);
 		String respuesta = "java";
 		String palabraAdivina = "_".repeat(respuesta.length());
 		int intentos = 6;
 		do {
-			System.out.println("Palabra adivina: " + palabraAdivina);
-			System.out.println("Inentos restados " + intentos);
-			System.out.println("Ingresa una letra");
-			String letra = sc.nextLine().toLowerCase();
+			JOptionPane.showMessageDialog(null, "Palabra adivina: " + palabraAdivina + "\n" + "Inentos restados " + intentos);
+			String letra = JOptionPane.showInputDialog(null, "Dime un letra", "Letra", JOptionPane.QUESTION_MESSAGE);
 			if (respuesta.contains(letra)) {
 				char[] x = palabraAdivina.toCharArray();
 				if (palabraAdivina.contains(letra)) {
@@ -30,11 +34,11 @@ public class main {
 				intentos--;
 			}
 			if (respuesta.equals(palabraAdivina)) {
-				System.out.println("Win!\nLa palabra correta es - " + respuesta + "\nItentos = " + (6 - intentos));
+				JOptionPane.showMessageDialog(null, "Win!\nLa palabra correta es - " + respuesta);
 				break;
 			}
 		} while (intentos > 0);
-		System.out.println("Game Over");
+		JOptionPane.showMessageDialog(null, "GAME OVER");
 	}
 
 }
