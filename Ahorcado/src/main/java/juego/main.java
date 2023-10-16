@@ -9,7 +9,7 @@ public class main {
 		if(nombre!=null) {
 			JOptionPane.showMessageDialog(null, "Bienvenido " + nombre);
 		} else {
-			JOptionPane.showMessageDialog(null, "Bienvenido anonimus " + nombre);
+			JOptionPane.showMessageDialog(null, "Bienvenido anonimus");
 		}
 		Scanner sc = new Scanner(System.in);
 		String respuesta = "java";
