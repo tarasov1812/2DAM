@@ -2,8 +2,49 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="app">
+      <entry key="MainActivity1Clase9DeEnero">
         <State />
+      </entry>
+      <entry key="MainActivity1Clase9DeEnero (1)">
+        <State />
+      </entry>
+      <entry key="MainActivity2Clase9DeEnero">
+        <State>
+          <runningDeviceTargetSelectedWithDropDown>
+            <Target>
+              <type value="RUNNING_DEVICE_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\taras\.android\avd\Pixel_4_Edited_API_34.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </runningDeviceTargetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-01-09T12:34:22.933269300Z" />
+        </State>
+      </entry>
+      <entry key="MainActivity3Clase9DeEnero">
+        <State />
+      </entry>
+      <entry key="MainActivity5">
+        <State />
+      </entry>
+      <entry key="app">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\taras\.android\avd\Pixel_3a_API_34_extension_level_7_x86_64.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-01-09T11:13:00.299588600Z" />
+        </State>
       </entry>
     </value>
   </component>
