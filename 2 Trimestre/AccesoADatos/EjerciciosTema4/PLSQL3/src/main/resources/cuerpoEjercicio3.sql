@@ -1,0 +1,7 @@
+CREATE TYPE BODY alumno AS
+  MAP MEMBER FUNCTION get_id_alumno RETURN NUMBER IS
+  BEGIN
+    RETURN id_alumno;
+  END;
+END;
+/
